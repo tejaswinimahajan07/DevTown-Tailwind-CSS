@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tejaswini Mahajan | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-gray-800 text-white p-4">
+    <nav class="flex justify-between items-center">
+      <h1 class="text-xl font-bold">Tejaswini </h1>
+      <ul class="flex space-x-4">
+        <li><a href="#home" class="hover:underline">Home</a></li>
+        <li><a href="#about" class="hover:underline">About</a></li>
+        <li><a href="#projects" class="hover:underline">Projects</a></li>
+        <li><a href="#contact" class="hover:underline">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="flex flex-col items-center justify-center text-center py-20">
+    <img src="./images/profile.jpg" alt="Profile" class="w-32 h-32 rounded-full mb-4">
+    <h2 class="text-3xl font-bold mb-2">Tejaswini </h2>
+    <p class="mb-4">Web Developer | Designer</p>
+    <p class="italic mb-4">"Turning ideas into reality."</p>
+    <a href="https://drive.google.com/file/d/1OKHo-yzaieVryK_sS9njTqUnGZs3SzMs/view?usp=drivesdk" target="_blank" class="bg-blue-600 text-white px-4 py-2 rounded">Download Resume</a>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="py-20 px-8 bg-gray-100">
+    <h2 class="text-2xl font-bold mb-4">About Me</h2>
+    <p class="mb-4">I am a passionate web developer who loves building beautiful and functional websites.</p>
+    <h3 class="text-xl font-semibold mb-2">Skills</h3>
+    <ul class="list-disc pl-6 mb-4">
+      <li>HTML</li>
+      <li>Tailwind CSS</li>
+      <li>JavaScript</li>
+    </ul>
+    <h3 class="text-xl font-semibold mb-2">Education</h3>
+    <ul class="list-disc pl-6">
+      <li>Bachelor’s Degree in Computer Science Engineering(Data Science)- Dr,BATU University</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20 px-8">
+    <h2 class="text-2xl font-bold mb-8">Projects</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <!-- Project 1 -->
+      <div class="border rounded-lg overflow-hidden shadow hover:scale-105 transition">
+        <img src="./images/project1.png" alt="Project 1">
+        <div class="p-4">
+          <h3 class="font-bold text-lg">Project One</h3>
+          <p class="text-sm mb-2">A brief description of the project goes here.</p>
+          <a href="#" class="text-blue-600 underline">View on GitHub</a>
+        </div>
+      </div>
+      <!-- Project 2 -->
+      <div class="border rounded-lg overflow-hidden shadow hover:scale-105 transition">
+        <img src="./images/project2.png" alt="Project 2">
+        <div class="p-4">
+          <h3 class="font-bold text-lg">Project Two</h3>
+          <p class="text-sm mb-2">A brief description of the project goes here.</p>
+          <a href="#" class="text-blue-600 underline">View on GitHub</a>
+        </div>
+      </div>
+      <!-- Project 3 -->
+      <div class="border rounded-lg overflow-hidden shadow hover:scale-105 transition">
+        <img src="./images/project3.png" alt="Project 3">
+        <div class="p-4">
+          <h3 class="font-bold text-lg">Project Three</h3>
+          <p class="text-sm mb-2">A brief description of the project goes here.</p>
+          <a href="#" class="text-blue-600 underline">View on GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 px-8 bg-gray-100">
+    <h2 class="text-2xl font-bold mb-4">Contact Me</h2>
+    <form class="max-w-md mx-auto">
+      <input type="text" placeholder="Name" class="w-full p-2 mb-4 border rounded">
+      <input type="email" placeholder="Email" class="w-full p-2 mb-4 border rounded">
+      <textarea placeholder="Message" class="w-full p-2 mb-4 border rounded"></textarea>
+      <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center p-4">
+    &copy; tejaswini. All rights reserved.
+  </footer>
+
+</body>
+</html>
